@@ -1265,6 +1265,7 @@ button {
 [class*=panels][aria-label="User area"] [class*=button]:hover [class*=contents] {
   animation: UserModalButtons 0.5s normal ease;
 }
+/*
 [class*=panels][aria-label="User area"] [class*=container] [class*=noWrap] {
   width: 100px;
   opacity: 1;
@@ -1272,6 +1273,7 @@ button {
 [class*=panels][aria-label="User area"] [class*=button] {
   transition: 0.2s;
 }
+*/
 [class*=panels][aria-label="User area"] [class*=button]:hover {
   padding-bottom: 0px;
   transition: 0.2;
