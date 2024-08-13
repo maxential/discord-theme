@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600&family=Work+Sans:wght@400;500;600;700&display=swap");
 .theme-dark, .theme-light {
   --theme-version: none;
+  --mint-main: #4cd9a4;
+  --mint-hightlight: #00ff9d;
+  --menu-item-default-active-bg: #1b1b1b;
+  --menu-item-default-hover-bg: #1b1b1b;
   --header-primary: #ffffff;
   --header-secondary: #e6e6e6;
   --text-normal: #ffffff;
@@ -100,6 +104,12 @@
   --brand-experiment-160: #151515;
   --brand-experiment-530: #ffffff;
   --brand-experiment-360: #4cd9a4;
+}
+
+/* checkbox hover fill fix */
+.colorDefault_d90b3d.focused_d90b3d path
+{
+  fill: var(--mint-hightlight);
 }
 
 :root {
